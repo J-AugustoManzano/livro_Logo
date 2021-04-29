@@ -1,0 +1,40 @@
+aprenda extra41
+  repita 10 [
+    paradireita 36 
+    repita 4 [
+      parafrente 50 
+      paradireita 90
+    ]
+  ]
+fim
+
+aprenda extra42
+  repita 36 [
+    paradireita 10 
+    repita 4 [
+      parafrente 50 
+      paradireita 90
+    ]
+  ] 
+fim
+
+aprenda extra43
+  repita 36 [
+    paradireita 10 
+    repita 360 [
+      parafrente 0.8 
+      paradireita 1
+    ]
+  ]  
+fim
+
+aprenda extra44
+  repita 18 [
+    paradireita 20 
+    repita 2 [
+      parafrente 110 
+      paradireita 120
+    ]
+  ]  
+fim
+

@@ -1,0 +1,54 @@
+aprenda extra61
+  repita 36 [
+    parafrente 100
+    paratrás 100
+    paradireita 10
+  ]
+fim
+
+aprenda extra62
+  repita 18 [
+    parafrente 80
+    paratrás 50
+    paradireita 20
+  ]
+fim
+
+aprenda extra63
+  repita 12 [
+    parafrente 90
+    paratrás 50
+    paradireita 30
+  ]
+fim
+
+aprenda extra64 :TAM
+  se (:TAM > 100) [pare]
+  repita 3 [
+    parafrente :TAM
+    paradireita 120
+  ]
+  paradireita 20
+  extra64 :TAM + 5
+fim
+
+aprenda extra65 :TAM
+  se (:TAM > 100) [pare]
+  repita 6 [
+    parafrente :TAM
+    paradireita 60
+  ]
+  paradireita 20
+  extra65 :TAM + 5
+fim
+
+aprenda extra66 :TAM
+  se (:TAM > 2) [pare]
+  repita 360 [
+    parafrente :TAM
+    paradireita 1
+  ]
+  paradireita 20
+  extra66 :TAM + .1
+fim
+

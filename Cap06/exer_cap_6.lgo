@@ -1,0 +1,33 @@
+aprenda explosao :TAMANHO
+  se (:TAMANHO > 100) [pare]
+  repita 4 [parafrente :TAMANHO paradireita 90]
+  paradireita 20
+  explosao :TAMANHO + 5
+fim
+
+aprenda flortri :LADO
+  repita 3 [losangulo :LADO]
+fim
+
+aprenda losangulo :LADO
+  parafrente :LADO
+  paraesquerda 60
+  parafrente :LADO
+  paraesquerda 120
+  parafrente :LADO
+  paraesquerda 60
+  parafrente :LADO
+fim
+
+aprenda poligono :TAM :ANG
+  parafrente :TAM
+  paradireita :ANG
+  poligono :TAM :ANG
+fim
+
+aprenda starflor :LADO
+  repita 3 [losangulo :LADO]
+  paradireita 60
+  repita 3 [losangulo :LADO]
+fim
+

@@ -1,0 +1,51 @@
+aprenda extra51 :LADO
+  repita 5 [
+    repita 360 [
+      parafrente :LADO
+      paradireita 1
+    ]
+    paradireita 72 
+  ]
+fim
+
+aprenda extra52 :LADO
+  repita 5 [
+    repita 3 [
+      parafrente :LADO
+      paradireita 120
+    ]
+    paradireita 72 
+  ]
+fim
+
+aprenda extra53 :TAM
+  repita 20 [
+    repita 90 [
+      parafrente :TAM
+      paradireita 1
+    ]
+    mudepos[0 0]
+    paradireita 36 
+  ]
+fim
+
+aprenda extra54 :LADO
+  repita 3 [
+    repita 360 [
+      parafrente :LADO
+      paradireita 1
+    ]
+    paradireita 120 
+  ]
+fim
+
+aprenda extra55 :LADO
+  repita 3 [
+    repita 6 [
+      parafrente :LADO
+      paradireita 60
+    ]
+    paradireita 120 
+  ]
+fim
+

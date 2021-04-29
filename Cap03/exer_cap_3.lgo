@@ -1,0 +1,116 @@
+aprenda decagono
+  parafrente 30
+  paradireita 36
+  parafrente 30
+  paradireita 36
+  parafrente 30
+  paradireita 36
+  parafrente 30
+  paradireita 36
+  parafrente 30
+  paradireita 36
+  parafrente 30
+  paradireita 36
+  parafrente 30
+  paradireita 36
+  parafrente 30
+  paradireita 36
+  parafrente 30
+  paradireita 36
+  parafrente 30
+  paradireita 36
+fim
+
+aprenda minhafigura1
+  parafrente 40
+  paradireita 45
+  parafrente 40
+  paraesquerda 45
+  parafrente 40
+  paraesquerda 90
+  parafrente 100
+  paraesquerda 90
+  parafrente 40
+  paraesquerda 45
+  parafrente 40
+  paradireita 45
+  parafrente 40
+  paradireita 90
+  parafrente 40
+  paraesquerda 90
+  parafrente 40
+  paraesquerda 90
+  parafrente 120
+  paraesquerda 90
+  parafrente 40
+  paraesquerda 90
+  parafrente 40
+fim
+
+aprenda minhafigura2
+  minhafigura1
+  minhafigura1
+  minhafigura1
+  minhafigura1
+fim
+
+aprenda minhafigura3
+  parafrente 90
+  paradireita 90
+  parafrente 40
+  paradireita 90
+  parafrente 30
+  paradireita 90
+  parafrente 40
+fim
+
+aprenda minhafigura4
+  minhafigura3
+  minhafigura3
+  minhafigura3
+  minhafigura3
+fim
+
+aprenda paralelepipedo
+  parafrente 80
+  paradireita 45
+  parafrente 100
+  paradireita 135
+  parafrente 80
+  paradireita 45
+  parafrente 100
+fim
+
+aprenda pentagono
+  parafrente 40
+  paradireita 72
+  parafrente 40
+  paradireita 72
+  parafrente 40
+  paradireita 72
+  parafrente 40
+  paradireita 72
+  parafrente 40
+  paradireita 72
+fim
+
+aprenda retangulo
+  parafrente 60
+  paradireita 90
+  parafrente 100
+  paradireita 90
+  parafrente 60
+  paradireita 90
+  parafrente 100
+  paradireita 90
+fim
+
+aprenda triangulo
+  parafrente 50
+  paradireita 120
+  parafrente 50
+  paradireita 120
+  parafrente 50
+  paradireita 120
+fim
+

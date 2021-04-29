@@ -1,0 +1,157 @@
+aprenda circtunel :tam
+  se (:TAM > 4) [
+    pare
+  ]
+  repita 360 [
+    parafrente :TAM
+    paradireita 1
+  ]
+  circtunel :TAM + 0.5
+fim
+
+aprenda creep :size
+  usenada
+  parafrente :SIZE
+  uselápis
+fim
+
+aprenda desloca :size
+  usenada
+  parafrente :SIZE
+  uselápis
+fim
+
+aprenda espirala :tam :ang :num
+  se (:NUM = 0) [
+    pare
+  ]
+  parafrente :TAM
+  paradireita :ANG
+  espirala :TAM + 10 :ANG :NUM - 1
+fim
+
+aprenda explode :tam
+  se (:TAM > 200) [pare]
+  repita 36 [
+    parafrente :TAM
+    paratrás :TAM
+    paradireita sorteie 10
+  ]
+  explode :TAM + 5
+fim
+
+aprenda laco2 :tam
+  se (:TAM < 20) [
+    pare
+  ]
+  triang :TAM
+  desloca :TAM / 2
+  paradireita 60
+  laco2 :TAM - 5
+fim
+
+aprenda lacos :size
+  repita 6 [
+    triang :SIZE 
+    desloca :SIZE 
+    paradireita 60
+  ]
+fim
+
+aprenda novotri :size
+  paraesquerda 30
+  repita 3 [
+    parafrente :SIZE
+    paradireita 120
+  ]
+  paradireita 30
+fim
+
+aprenda poligao :lados :comp
+  se (:LADOS = 30) [
+    pare
+  ]
+  uselápis
+  repita :LADOS [
+    parafrente :COMP
+    paradireita 360 / :LADOS
+  ]
+  usenada
+  centro
+  uselápis
+  repita :LADOS [
+    parafrente :COMP
+    paraesquerda 360 / :LADOS
+  ]
+  poligao :LADOS + 1 :COMP
+fim
+
+aprenda quadrados :tam
+  se (:TAM < 4) [
+    pare
+  ]
+  repita 4 [
+    parafrente :TAM
+    quadrados :TAM / 2
+    paradireita 90
+  ]
+fim
+
+aprenda quadtunel :tam
+  se (:TAM < 4) [
+    pare
+  ]
+  repita 4 [
+    parafrente :TAM
+    paradireita 90
+  ]
+  quadtunel :TAM / 2
+fim
+
+aprenda risco
+  parafrente 100
+  paradireita 135
+  parafrente 40
+  paradireita 120
+  parafrente 60
+  paradireita 15
+fim
+
+aprenda riscoquad
+  repita 4 [
+    risco
+  ]
+fim
+
+aprenda sol
+  repita 72 [
+    repita 2 [
+      parafrente 60
+      paradireita 30
+      parafrente 60
+      paradireita 150
+    ] 
+    paradireita 5
+  ]
+fim
+
+aprenda torre :size
+  se (:SIZE < 1) [
+    pare
+  ]
+  repita 4 [
+    parafrente :SIZE
+    paradireita 90
+  ]
+  parafrente :SIZE
+  torre :SIZE / 2
+fim
+
+aprenda triang :size
+  paraesquerda 30
+  repita 3 [
+    parafrente :SIZE
+    paradireita 120
+  ]
+  paradireita 30
+fim

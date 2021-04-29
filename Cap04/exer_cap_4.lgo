@@ -1,0 +1,78 @@
+aprenda circunf1
+  repita 360 [parafrente 2 paradireita 1]
+fim
+
+aprenda circunf2
+  repita 360 [parafrente 2 paradireita 1]
+  repita 360 [parafrente 1 paradireita 1]
+fim
+
+aprenda decagono
+  parafrente 30
+  paradireita 36
+  parafrente 30
+  paradireita 36
+  parafrente 30
+  paradireita 36
+  parafrente 30
+  paradireita 36
+  parafrente 30
+  paradireita 36
+  parafrente 30
+  paradireita 36
+  parafrente 30
+  paradireita 36
+  parafrente 30
+  paradireita 36
+  parafrente 30
+  paradireita 36
+  parafrente 30
+  paradireita 36
+fim
+
+aprenda dodecagono
+  repita 12 [parafrente 20 paradireita 30]
+fim
+
+aprenda hexagono
+  parafrente 80 paradireita 60
+  parafrente 80 paradireita 60
+  parafrente 80 paradireita 60
+  parafrente 80 paradireita 60
+  parafrente 80 paradireita 60
+  parafrente 80 paradireita 60
+fim
+
+aprenda icosagono
+  repita 20 [parafrente 15 paradireita 18]
+fim
+
+aprenda minhafigura4
+  repita 4 [repita 3 [parafrente 80 paradireita 120] paradireita 90]
+fim
+
+aprenda minhafigura5
+  repita 8 [repita 3 [parafrente 80 paradireita 120] paradireita 45]
+fim
+
+aprenda minhafigura6
+  repita 4 [
+    repita 2 [
+      parafrente 20 paradireita 90
+      parafrente 40 paradireita 90
+    ]
+  paradireita 90
+  ]
+fim
+
+aprenda retangulo
+  parafrente 60
+  paradireita 90
+  parafrente 100
+  paradireita 90
+  parafrente 60
+  paradireita 90
+  parafrente 100
+  paradireita 90
+fim
+

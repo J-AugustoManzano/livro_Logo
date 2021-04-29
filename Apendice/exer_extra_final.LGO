@@ -1,0 +1,234 @@
+aprenda espiral :TAM :X :Y :QUANT
+  se (:QUANT = 0) [
+    pare
+  ]
+  paraesquerda :Y
+  parafrente :TAM
+  usenada
+  paratrás :TAM
+  paradireita :Y
+  parafrente :TAM
+  uselápis 
+  paradireita :X
+  espiral :TAM+1 :X :Y+0.7 :QUANT-1 
+fim
+
+aprenda extrafim01
+  repita 60 [
+    repita 360 [
+      parafrente 1.2
+      paradireita 1
+    ]
+    paradireita 6
+  ]
+fim
+
+aprenda extrafim02
+  repita 36 [
+    repita 17 [
+      parafrente 1.5 
+      paradireita 10
+    ] 
+    paradireita 180
+  ]
+fim
+
+aprenda extrafim03
+  repita 36 [
+    repita 3 [
+      parafrente 120 
+      paradireita 120
+    ] 
+    paradireita 10
+  ]
+fim
+
+aprenda extrafim04
+  repita 36 [
+    repita 3 [
+      parafrente 120 
+      paradireita 90
+    ] 
+    paradireita 10
+  ]
+fim
+
+aprenda extrafim05
+  repita 8 [
+    repita 10 [
+      parafrente 100 
+      paradireita 90
+    ] 
+    paradireita 45
+  ]
+fim
+
+aprenda extrafim06
+  repita 9 [
+    repita 5 [
+      parafrente 100 
+      paradireita 60
+    ] 
+    paradireita 20
+  ]
+fim
+
+aprenda extrafim07
+  repita 6 [
+    repita 180 [
+      parafrente 0.5 
+      paradireita 1
+    ]
+    paraesquerda 120 
+  ]
+fim
+
+aprenda extrafim08
+  repita 6 [
+    repita 180 [
+      parafrente 1 
+      paradireita 1
+    ]
+    paradireita 120 
+  ]
+fim
+
+aprenda extrafim09
+  repita 4 [
+    repita 180 [
+      parafrente 1 
+      paradireita 1
+    ] 
+    paraesquerda 90
+  ]
+fim
+
+aprenda extrafim10
+  repita 4 [
+    repita 180 [
+      parafrente 1.5 
+      paradireita 1
+    ] 
+    paradireita 90
+  ]
+fim
+
+aprenda extrafim11
+  repita 3 [
+    repita 180 [
+      parafrente 1.5 
+      paradireita 1
+    ] 
+    paradireita 60
+  ]
+fim
+
+aprenda extrafim12
+  repita 36 [
+    repita 180 [
+      parafrente 1.5 
+      paradireita 1
+    ] 
+    paradireita 70
+  ]
+fim
+
+aprenda extrafim13
+  repita 18 [
+    repita 180 [
+      parafrente 1.5 
+      paradireita 1
+    ] 
+    paradireita 80
+  ]
+fim
+
+aprenda extrafim14
+  repita 9 [
+    repita 180 [
+      parafrente 1.5 
+      paradireita 1
+    ] 
+    paradireita 100
+  ]
+fim
+
+aprenda extrafim15
+  repita 9 [
+    repita 180 [
+      parafrente 1 
+      paradireita 1
+    ] 
+    paraesquerda 100
+  ]
+fim
+
+aprenda extrafim16
+  repita 18 [
+    repita 180 [
+      parafrente 1 
+      paradireita 1
+    ] 
+    paraesquerda 80
+  ]
+fim
+
+aprenda extrafim17
+  repita 9 [
+    repita 5 [
+      parafrente 100 
+      paradireita 60
+    ] 
+    paraesquerda 20
+  ]
+fim
+
+aprenda extrafim18
+  repita 9 [
+    repita 3 [
+      parafrente 100 
+      paradireita 100
+    ] 
+    paraesquerda 20
+  ]
+fim
+
+aprenda extrafim19
+  repita 9 [
+    repita 3 [
+      parafrente 100 
+      paradireita 100
+    ] 
+    paradireita 20
+  ]
+fim
+
+aprenda extrafim20
+  repita 36 [
+    repita 3 [
+      parafrente 100 
+      paraesquerda 270
+    ] 
+    paradireita 20
+  ]
+fim
+
+aprenda extrafim21
+  repita 6 [
+    repita 3 [
+      parafrente 100 
+      paradireita 120
+    ] 
+    paradireita 60
+  ]
+fim
+
+aprenda extrafim22
+  repita 6 [
+    repita 6 [
+      parafrente 70 
+      paradireita 60
+    ] 
+    paradireita 60
+  ]
+fim

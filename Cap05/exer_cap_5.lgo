@@ -1,0 +1,115 @@
+aprenda casinha
+  uselápis
+  para [I 1 4] [
+    parafrente 80
+    paradireita 90
+  ]
+  parafrente 80
+  paradireita 90
+  para [I 1 2] [
+    parafrente 80
+    paraesquerda 120
+  ]
+  parafrente 80
+  mudepos [0 0]
+  paradireita 150
+  usenada
+  mudepos [10 0]
+  uselápis
+  parafrente 60
+  paradireita 90
+  parafrente 20
+  paradireita 90
+  parafrente 60
+  paradireita 180
+  usenada
+  mudepos [50 60]
+  uselápis
+  paradireita 90
+  para [I 1 4] [
+    parafrente 20
+    paradireita 90
+  ]
+  usenada
+  mudepos [0 0]
+  paraesquerda 90
+  uselápis
+fim
+
+aprenda circuvar :LADO
+  repita 360 [
+    parafrente :LADO
+    paradireita 1
+  ]
+fim
+
+aprenda metareta :LADO
+  repita 2 [
+    parafrente :LADO * 2
+    paradireita 90
+    parafrente :LADO
+    paradireita 90
+  ]
+fim
+
+aprenda quadenq :LADO
+  atribua "I 1 
+  enquanto [:I < 5] [
+    parafrente :LADO
+    paradireita 90
+    atribua "I :I + 1 
+  ]
+fim
+
+aprenda quadpar :LADO
+  para [i 1 4] [
+    parafrente :LADO
+    paradireita 90
+  ]
+fim
+
+aprenda quadro :TAMANHO
+  repita 4 [
+    parafrente :TAMANHO
+    paradireita 90
+  ]
+  paradireita 45
+  parafrente (:TAMANHO * 7) / 5
+  paratrás (:TAMANHO * 7) / 5
+  paraesquerda 45
+  parafrente :TAMANHO
+  paradireita 135
+  parafrente (:TAMANHO * 7) / 5
+  paratrás (:TAMANHO * 7) / 5
+fim
+
+aprenda retadobro :LADO
+  repita 2 [
+    parafrente :LADO * 2
+    paradireita 90
+    parafrente :LADO
+    paradireita 90
+  ]
+fim
+
+aprenda retaflor :LADO
+  paraesquerda 90
+  repita 8 [paradireita 45 retameta :LADO] 
+fim
+
+aprenda retameta :LADO
+  repita 2 [
+    parafrente :LADO
+    paradireita 90
+    parafrente :LADO / 2
+    paradireita 90
+  ]
+fim
+
+aprenda trivar :LADO
+  repita 3 [
+    parafrente :LADO
+    paradireita 120
+  ]
+fim
+
